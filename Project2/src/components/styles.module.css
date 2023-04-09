@@ -1,0 +1,157 @@
+.desktopChild,
+.logo {
+    position: absolute;
+    left: 0;
+}
+
+.desktopChild {
+    top: 0;
+    background: linear-gradient(180deg, #c7e9b0, #a4bc92);
+    width: 1366px;
+    height: 768px;
+}
+
+.logo {
+    top: 6px;
+    font-weight: 900;
+}
+
+.about,
+.contact,
+.services {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-weight: 500;
+}
+
+.contact,
+.services {
+    left: 75px;
+}
+
+.contact {
+    left: 168px;
+}
+
+.buttonText {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    left: 266px;
+    border-radius: var(--br-5xl);
+    background-color: #a4bc92;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-13xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+}
+
+.menuItems,
+.navbar {
+    position: absolute;
+    height: 59px;
+}
+
+.menuItems {
+    top: 0;
+    left: 739px;
+    width: 396px;
+    text-align: center;
+    font-size: var(--font-size-base);
+}
+
+.navbar {
+    top: 42px;
+    left: 116px;
+    width: 1135px;
+}
+
+.joinTheAgricultural,
+.revolutionizingTheWay {
+    position: absolute;
+    left: 116px;
+    display: inline-block;
+    width: 404px;
+}
+
+.revolutionizingTheWay {
+    top: 157px;
+    font-size: 50px;
+    line-height: 125%;
+    font-weight: 900;
+}
+
+.joinTheAgricultural {
+    top: 409px;
+    font-size: var(--font-size-base);
+    line-height: 200%;
+    font-weight: 600;
+}
+
+.pencilaltIcon {
+    position: relative;
+    width: 18px;
+    height: 16px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.button1 {
+    position: absolute;
+    top: 551px;
+    left: 116px;
+    border-radius: var(--br-5xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-13xl);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: var(--font-size-lg);
+    color: #91a881;
+    font-family: var(--font-poppins);
+}
+
+.farmerIcon,
+.farmerLight3pai610lTransfoIcon {
+    position: absolute;
+    top: 0;
+    left: 281px;
+    width: 1085px;
+    height: 779px;
+    object-fit: cover;
+}
+
+.farmerLight3pai610lTransfoIcon {
+    left: 536px;
+    width: 319px;
+    height: 236px;
+}
+
+.desktopItem {
+    position: absolute;
+    top: 0;
+    left: 436.86px;
+    width: 533.28px;
+    height: 458.14px;
+}
+
+.desktop {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+}
